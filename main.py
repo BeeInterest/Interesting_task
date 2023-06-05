@@ -42,7 +42,7 @@ try:
         p = side * 4
         s = side * side
         d = sqrt(2) * side
-        return "Периметр квадрата: {:} \nПлощадь квадрата: {:} \nДиагональ квадрата: {:.2f}".format(p, s, d)
+        return "Периметр квадрата: {:} \nПлощадь квадрата: {:} \nДиагональ квадрата: {:}".format(p, s, d)
 
 
     print(square(side))
