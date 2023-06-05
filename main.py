@@ -1,4 +1,4 @@
-from postgres_tools import PostgresTools
+from postgres_tools import SqlTools
 from sqlalchemy import create_engine
 from math import sqrt
 
