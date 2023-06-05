@@ -3,7 +3,7 @@ from sqlalchemy.sql import select
 from sqlalchemy import Table, MetaData, Column, Integer, String
 
 
-class PostgresTools:
+class SqlTools:
     engine = None
     metadata = MetaData()
     table1 = None

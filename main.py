@@ -5,7 +5,7 @@ from math import sqrt
 engine = create_engine("sqlite:///testdb.db", echo=True)
 connection = engine.connect()
 
-tool = PostgresTools(engine, connection)
+tool = SqlTools(engine, connection)
 
 # Моделируем таблицу 1 в программе, либо создаем её в бд, и заполняем данными таблицу 1
 tool.create_table1()
